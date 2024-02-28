@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT Integration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="chat" id="chat"></div>
+      <form class="input-container">
+        <input
+          type="text"
+          id="user-input"
+          autocomplete="off"
+          placeholder="Type your message..."
+        />
+        <input
+          type="submit"
+          id="send-button"
+          value="Send"
+          onclick="sendMessage()"
+        />
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
